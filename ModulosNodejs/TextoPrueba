@@ -1,0 +1,1 @@
+el modulo fileSystem nos permite trabajar con los rchivos del OS , cuando creems programas tendremos que usarlo, permite crear nuevos archivos y leerlos metodo writeFile(), recibe parametro nombre del archivo + ruta donde se va a crear, el conetnido de ese archivo, Callback (funcion que se ejecuta cuando a termiando de crearse el archivo)

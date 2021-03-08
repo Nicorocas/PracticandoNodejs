@@ -1,0 +1,9 @@
+Enlace a la documentacion de los modulos de nodejs https://nodejs.org/dist/latest-v14.x/docs/api/, modulos de testing, memoria del compu, crear serves HTTP HTTPS, archivos del sistema, errores, DNS servers y dominios
+
+
+Estos modulos no se usas solo para crear servidores, se puede crear apps de escritorio ya que permiten trabajar con archivos de sistema, vienen instalados por defecto
+
+nodejs no es una manera de crear apps si no de ejecutar codigo de javascript, luego usando frameworks que utilizan nodejs se podra crear esas aplicaciones de escritorio o moviles. 
+
+
+Todos estos modulos son modulos core, permiten funcionalidades de bajo nivel y permiten trabajar con codigo directamente, pero luego para hacer cosas mas referidas se utilizan frameworks en ves de modulos
