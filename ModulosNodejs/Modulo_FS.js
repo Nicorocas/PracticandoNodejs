@@ -11,12 +11,18 @@ fs.writeFile("./TextoPrueba","el modulo fileSystem nos permite trabajar con los 
     }
     else {console.log("archivo creado")}
 } )
-var titulo = "Diseño Webmap 1"
-var body = ""
+
+
+
 //creador de index.html
+var titulo = "Diseño Webmap 1"
+var body = "<h1> Aqui h1 </h1>"
+var footer= "<footer> Aqui el Footer </footer>"
+
+
 fs.writeFile("./index.html",
 /// se pueden añadir variables de tipo string para rellenar el doctype
-"<!DOCTYPE html> <html> <head>	<script></script> 	<title>"+titulo+"</title> </head> <body>"+body+"</body> </html>",
+"<!DOCTYPE html> <html> <head>	<script></script> 	<title>"+titulo+"</title> </head> <body>"+body+ footer +"</body> </html>",
 
 function (err){
         if (err){
